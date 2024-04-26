@@ -9,7 +9,7 @@
 <body>
     
     <body>
-        <img class="logo" src="/build/assets/img/easy-food.PNG">
+        <img class="logo" src="/assets/img/easy-food.PNG">
         <p>
         <button style="background-color:#0D127B; border-color:#2517bf; color:white">
             CARDÁPIO</button>
@@ -29,7 +29,7 @@
 
         <section class="products">
             <div class="product">
-                <img src="/build/assets/img/928209592-dia-do-hamburguer.webp" alt="X-Frango">
+                <img src="/assets/img/928209592-dia-do-hamburguer.webp" alt="X-Frango">
                 <h3>001-XFRANGO</h3>
                 <p>Lanches</p>
                 <p>R$ 22,00</p>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="product">
-                <img src="/build/assets/img/esfirra.jpg" alt="Esfiha de Carne">
+                <img src="/assets/img/esfirra.jpg" alt="Esfiha de Carne">
                 <h3>023-ESFIHA DE CARNE</h3>
                 <p>Variedades</p>
                 <p>R$ 4,00</p>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="product">
-                <img src="/build/assets/img/refris-2020_11_07-02_55_03-UTC.png" alt="Coca-Cola 2L">
+                <img src="/assets/img/refris-2020_11_07-02_55_03-UTC.png" alt="Coca-Cola 2L">
                 <h3>030-COCA-COLA 2L</h3>
                 <p>Bebidas</p>
                 <p>R$ 10,00</p>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="product">
-                <img src="/build/assets/img/combo lanche.jpg" alt="Combo Super">
+                <img src="/assets/img/combo lanche.jpg" alt="Combo Super">
                 <h3>110- COMBO SUPER</h3>
                 <p>Lanches</p>
                 <p>R$ 60,00</p>

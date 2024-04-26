@@ -8,7 +8,7 @@
 </head>
 <body>
     <body>
-        <img class="logo" src="/build/assets/img/easy-food.PNG">
+        <img class="logo" src="/assets/img/easy-food.PNG">
         <p>
         <button style="background-color:#0D127B; border-color:#2517bf; color:white">
             CARDÁPIO</button>
