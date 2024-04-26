@@ -24,26 +24,9 @@
         </table>
     </div>
 
-    <div id="itens">
-        <h2>Itens</h2>
-        <select id="select-categoria">
-            <option value="">Todas as Categorias</option>
-            </select>
-        <button id="btn-novo-item">Novo Item</button>
-        <table id="tabela-itens">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Categoria</th>
-                    <th>Preço</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody>
-                </tbody>
-        </table>
-    </div>
+    
+    
+    <script src="{{ mix('js/script.js') }}"></script>
 
-    <script src="/resources/js/script.js"></script>
 </body>
 </html>
