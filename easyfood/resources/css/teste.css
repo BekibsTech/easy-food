@@ -2,6 +2,9 @@
     width: 200px;
     height: 70px;
 }
+
+
+
 button{
     width: 380px;
     height: 50px;
@@ -78,4 +81,5 @@ nav a {
     height: 150px;
     object-fit: cover;
 }
+
 
