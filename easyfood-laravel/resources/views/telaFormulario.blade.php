@@ -27,15 +27,18 @@
                     <label for="nomeItem">Nome do Item:</label>
                     <input type="text" id="nomeItem" name="nomeItem" value="{{ $formulario->nomeItem ?? '' }}">
                 </div>
-                
+
                 <div class="form-group">
                     <label for="categoria-item">Categoria:</label>
                     <select id="categoria-item" name="categoria-item" required>
                         <option value="Selecione a Categoria">Selecione a Categoria </option>
+                        @foreach ($formularios as $formularios)
                         <option value="lanche">Lanches</option>
                         <option value="salgados">Salgados</option>
                         <option value="bebidas">Bebidas</option>
                         <option value="doce">Doces</option>
+                        @endforeach
+
                     </select>
                 </div>
                 

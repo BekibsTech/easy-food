@@ -3,12 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Models\formulario;
+use App\Models\Formulario as ModelsFormulario;
 use Illuminate\Http\Request;
 
 class FormularioController extends Controller
 {
+    public function option(){
+      
+    }
+
     public function formulario(){
-        return view('/telaFormulario');
+        $formularios = Formulario::all();
+
+        return view('/telaFormulario',  compact('formularios'));
     }
 
     public function store(Request $request){
