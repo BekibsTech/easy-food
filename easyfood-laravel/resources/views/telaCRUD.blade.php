@@ -33,9 +33,8 @@
         <table id="tabela-categorias">
             <thead>
                 <tr>
-                    <th class ="item-um">Salgado <a href="CRUD2"> <button class="botao-editar">Editar categoria</button></a></th>
-                    
-                    
+                    <th class ="item-um">Lanches <a href="CRUD2"> <button class="botao-editar">Editar categoria</button></a></th>
+                                       
                 </tr>
 
                 <tr>

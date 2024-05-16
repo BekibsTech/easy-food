@@ -1,92 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gerenciamento de itens</title>
-    @vite(['resources/css/teste2.css']);
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASY FOOD</title>
+    <link rel="stylesheet" href="CSS/salgados.css">
 </head>
 
 <body>
-
     <img class="logo" src="IMG/logo.jpg">
     <p>
     <section class="categorias">
-        <button class="categoria">CARDÁPIO</button>
-        <button class="categoria">ITENS</button>
-        <button class="categoria">PEDIDOS</button>
-        <button class="categoria">COZINHA</button>
-        <button class="categoria">FECHAMENTO</button>
+        <button class="categoria">
+            CARDÁPIO</button>
+        <button class="categoria">
+            ITENS</button>
+        <button class="categoria">
+            PEDIDOS</button>
+        <button class="categoria">
+            COZINHA</button>
+        <button class="categoria">
+            FECHAMENTO</button>
     </section>
+        
     <section class="orders">
         <br>
-        <h2>DOCES:</h2>
+        <h2>SALGADOS:</h2>
         <br>
         <table>
-            <tdead>
+            <thead>
                 <tr>
-                    <td>Item</td>
-                    <td>Ingredientes</td>
-                    <td>Valor</td>
-                    <td>Ação</td>
+                    <th>Item</th>
+                    <th>Ingredientes</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
                 </tr>
-            </tdead>
+            </thead>
             <tbody>
                 <tr>
-                    <td>TORTA HOLANDESA</td>
-                    <td>Biscoito com creme de Chocolate e creme Branco </td>
-                    <td>R$: 80,00</td>
+                    <td>Coxinha</td>
+                    <td>Frango / Frango com Catupiry</td>
+                    <td>R$ 8,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>
                     </td>
                 </tr>
                 <tr>
-                    <td>TORTA DE LIMÃO</td>
-                    <td>Creme de limão com massa de biscoito e pedaços de Limão</td>
-                    <td>R$: 80,00</td>
+                    <td>Esfiha de Queijo</td>
+                    <td>Queijo Mussarela</td>
+                    <td>R$ 8,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>
                     </td>
                 </tr>
-
                 <tr>
-                    <td>PETIT GÂTEAU</td>
-                    <td>Pequeno bolo recheado com sorvete de Baunilhia</td>
-                    <td>R$: 25,00</td>
+                    <td>Esfiha de Carne</td>
+                    <td>Carne moida, cebola picada e pimentão</td>
+                    <td>R$ 8,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>
                     </td>
                 </tr>
-
                 <tr>
-                    <td>PUDIM</td>
-                    <td>Pudim de leite</td>
-                    <td>R$: 45,00</td>
+                    <td>Hamburgão</td>
+                    <td>Carne de hamburguer, Uma fatia de Tomate, Queijo Mussarela</td>
+                    <td>R$ 8,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>
                     </td>
                 </tr>
-
                 <tr>
-                    <td>BOLO GELADO</td>
-                    <td>Bolo branco com coco gelado</td>
-                    <td>R$: 16,00</td>
+                    <td>Bauru</td>
+                    <td>Queijo Mussarela; Presunto; Tomate; Cebola; Oregano</td>
+                    <td>R$ 12,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>
                     </td>
                 </tr>
-
                 <tr>
-                    <td>ARROZ DOCE</td>
-                    <td>Arroz cozido com leite condesado e canela</td>
-                    <td>R$: 20,00</td>
+                    <td>Empada</td>
+                    <td>Frango com Queijo / Camarão</td>
+                    <td>R$ 8,00</td>
                     <td>
                         <button type="button" class="button ed">Editar</button>
                         <button type="button" class="button ex">Excluir</button>

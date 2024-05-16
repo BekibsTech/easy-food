@@ -1,125 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gerenciamento de itens</title>
-    @vite(['resources/css/style.css']);
+    @vite(['resources/css/lanche.css']);
+    <link rel="stylesheet" href="css/lanche.css">
 </head>
+
 <body>
 
-    <img class="logo2" src="/assets/img/easy-food.PNG">
+    <img class="logo" src="/assets/img/easy-food.PNG">
     <p>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-        CARDÁPIO</button>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-         ITENS</button>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-            PEDIDOS</button>
-     <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-                COZINHA</button>
-     <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-                    FECHAMENTO</button>
-
-
-    <div id="itens">
-        <h2>Salgados:</h2>
-
-       <a href="/"> <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            VOLTAR</button></a>
-
-            <br><br>
-       
-
-        
-
-        <table id="tabela-itens">
-            <thead>
+    <section class="categorias">
+        <button class="categoria">CARDÁPIO</button>
+        <button class="categoria">ITENS</button>
+        <button class="categoria">PEDIDOS</button>
+        <button class="categoria">COZINHA</button>
+        <button class="categoria">FECHAMENTO</button>
+    </section>
+    <section class="orders">
+        <br>
+        <h2>LANCHES:</h2>
+        <br>
+        <table>
+            <tdead>
                 <tr>
-                    <th>Item</th>
-                    <th>Ingrediente</th>
-                    <th>Valor</th>
-                    
+                    <td>Item</td>
+                    <td>Ingredientes</td>
+                    <td>Valor</td>
+                    <td>Ação</td>
                 </tr>
-            </thead>
+            </tdead>
             <tbody>
-                </tbody>
+                <tr>
+                    <td>X-FRANGO</td>
+                    <td>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Frango e Batata-Palha</td>
+                    <td>R$: 22,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>X-SALADA</td>
+                    <td>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Salada e Batata-Palha</td>
+                    <td>R$: 15,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>X-BACON</td>
+                    <td>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Bacon, Salada e Batata-Palha</td>
+                    <td>R$: 22,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>X-BURGUER</td>
+                    <td>Pão, Carne, Presunto, Queijo, Maionese Caseira, Ketchup, Mostarda e Batata-Palha</td>
+                    <td>R$: 13,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>X-EGG</td>
+                    <td>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Ovo, Salada e Batata-Palha</td>
+                    <td>R$: 16,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>HAMBÚRGUER</td>
+                    <td>Pão, Carne, Maionese Caseira, Ketchup, Mostarda e Batata-Palha</td>
+                    <td>R$: 16,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
-
-        <table id="tabela-itens-dois">
-            <thead>
-                <tr>
-                    <th>X-FRANGO</th>
-                    <th>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Frango e Batata-Palha</th>
-                    <th>R$: 22,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>X-SALADA</th>
-                    <th>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Salada e Batata-Palha</th>
-                    <th>R$: 15,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>X-BACON</th>
-                    <th>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Bacon, Salada e Batata-Palha</th>
-                    <th>R$: 22,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>X-BURGUER</th>
-                    <th>Pão, Carne, Presunto, Queijo, Maionese Caseira, Ketchup, Mostarda e Batata-Palha</th>
-                    <th>R$: 13,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>X-EGG</th>
-                    <th>Pão, Carne, Maionese Caseira, Ketchup, Mostarda, Ovo, Salada e Batata-Palha</th>
-                    <th>R$: 16,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>HAMBÚRGUER</th>
-                    <th>Pão, Carne, Maionese Caseira, Ketchup, Mostarda e Batata-Palha</th>
-                    <th>R$: 16,00</th>
-                   
-                </tr>
-            </thead>
-
-            <tbody>
-                </tbody>
-        </table>
-
-        
-
-
-
-    </div>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            ADICIONAR</button>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            EXCLUIR</button>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            EDITAR</button>
-
+    </section>
 </body>
+
 </html>

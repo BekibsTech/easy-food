@@ -26,13 +26,7 @@
                     <label for="nome-item">Nome do Item:</label>
                     <input type="text" id="nome-item" name="nome-item" required>
                 </div>
-
-                <div class="form-group">
-                    <label for="categoria-item">Categoria:</label>
-                    <select id="categoria-item" name="categoria-item" required>
-                        </select>
-                </div>
-
+                
                 <div class="form-group">
                     <label for="preco-item">Preço:</label>
                     <input type="number" id="preco-item" name="preco-item" step="0.01" required>

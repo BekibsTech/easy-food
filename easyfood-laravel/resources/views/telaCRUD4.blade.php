@@ -1,108 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gerenciamento de itens</title>
-    @vite(['resources/css/style.css']);
+    @vite(['resources/css/bebidas.css']);   
 </head>
+
 <body>
 
-    <img class="logo2" src="/assets/img/easy-food.PNG">
+    <img class="logo" src="IMG/logo.jpg">
     <p>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-        CARDÁPIO</button>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-         ITENS</button>
-    <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-            PEDIDOS</button>
-     <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-                COZINHA</button>
-     <button style="background-color:#0D127B; border-color:#2517bf; color:white">
-                    FECHAMENTO</button>
-
-
-    <div id="itens">
-        <h2>Bebidas</h2>
-        
-       
-      <a href="/">  <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white"> VOLTAR</button></a>
-
-            <br><br>
-        
-
-        <table id="tabela-itens">
-            <thead>
+    <section class="categorias">
+        <button class="categoria">CARDÁPIO</button>
+        <button class="categoria">ITENS</button>
+        <button class="categoria">PEDIDOS</button>
+        <button class="categoria">COZINHA</button>
+        <button class="categoria">FECHAMENTO</button>
+    </section>
+    <section class="orders">
+        <br>
+        <h2>BEBIDAS:</h2>
+        <br>
+        <table>
+            <tdead>
                 <tr>
-                    <th>Item</th>
-                    <th>Ingrediente</th>
-                    <th>Valor</th>
-                    
+                    <td>Item</td>
+                    <td>Ingredientes</td>
+                    <td>Valor</td>
+                    <td>Ação</td>
                 </tr>
-            </thead>
+            </tdead>
             <tbody>
-                </tbody>
+                <tr>
+                    <td>ÁGUA</td>
+                    <td>Água mineral ou com gás</td>
+                    <td>R$: 4,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>REFRIGERANTES</td>
+                    <td>Coca Cola, Guaraná, Pepsi, Fanta e Sprite</td>
+                    <td>R$: 8,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>SUCO</td>
+                    <td>Laranja, Uva, Morango, Maracujá, Abacaxi e Limão</td>
+                    <td>R$: 12,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>DRINKS</td>
+                    <td>Drinks com gin, sem álcool, com Vodka, com Doce de leite e/ou Whisky </td>
+                    <td>R$: 15,00</td>
+                    <td>
+                        <button type="button" class="button ed">Editar</button>
+                        <button type="button" class="button ex">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
-
-        <table id="tabela-itens-dois">
-            <thead>
-                <tr>
-                    <th>ÁGUA</th>
-                    <th>Água mineral ou com gás</th>
-                    <th>R$: 4,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>REFRIGERANTES</th>
-                    <th>Coca Cola, Guaraná, Pepsi, Fanta e Sprite</th>
-                    <th>R$: 8,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>SUCO</th>
-                    <th>Laranja, Uva, Morango, Maracujá, Abacaxi e Limão</th>
-                    <th>R$: 12,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                <tr>
-                    <th>DRINKS</th>
-                    <th>Drinks com gin, sem álcool, com Vodka, com Doce de leite e/ou Whisky </th>
-                    <th>R$: 15,00</th>
-                   
-                </tr>
-            </thead>
-
-            <thead>
-                
-
-            <tbody>
-                </tbody>
-        </table>
-
-        
-
-
-
-    </div>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            ADICIONAR</button>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            EXCLUIR</button>
-
-    <button class = "botao2" style="background-color:#0D127B; border-color:#2517bf; color:white">
-            EDITAR</button>
-
+    </section>
 </body>
+
 </html>
