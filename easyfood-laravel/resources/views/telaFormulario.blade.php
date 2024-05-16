@@ -21,15 +21,27 @@
             </form>
 
             <h2>Novo Item</h2>
-            <form id="form-item">
+            <form id="form-item" method="POST">
+                @csrf
                 <div class="form-group">
                     <label for="nomeItem">Nome do Item:</label>
-                    <input type="text" id="nomeItem" name="nomeItem" required>
+                    <input type="text" id="nomeItem" name="nomeItem" value="{{ $formulario->nomeItem ?? '' }}">
+                </div>
+                
+                <div class="form-group">
+                    <label for="categoria-item">Categoria:</label>
+                    <select id="categoria-item" name="categoria-item" required>
+                        <option value="Selecione a Categoria">Selecione a Categoria </option>
+                        <option value="lanche">Lanches</option>
+                        <option value="salgados">Salgados</option>
+                        <option value="bebidas">Bebidas</option>
+                        <option value="doce">Doces</option>
+                    </select>
                 </div>
                 
                 <div class="form-group">
                     <label for="precoItem ">Preço:</label>
-                    <input type="number" id="precoItem " name="precoItem " step="0.01" required>
+                    <input type="number" id="precoItem " name="precoItem" step="0.01" value="{{ $classroom->precoItem ?? '' }}">
                 </div>
                 <button type="submit">Adicionar Item</button>
             </form>

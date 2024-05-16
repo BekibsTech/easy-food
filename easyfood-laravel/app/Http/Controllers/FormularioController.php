@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\formulario;
 use Illuminate\Http\Request;
 
 class FormularioController extends Controller
@@ -19,7 +20,7 @@ class FormularioController extends Controller
         $formulario->nomeItem = $request->nomeItem;
         $formulario->precoItem = $request->precoItem;
 
-        $pedido->save();
+        $formulario->save();
         return redirect()->route('formulario.create')->with('success', 'Pedido salvo com sucesso');
     }
 

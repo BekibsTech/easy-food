@@ -26,6 +26,6 @@ Route::get('/CRUD3', [CRUD3Controller::class, 'CRUD3'])->name('CRUD3');
 Route::get('/CRUD4', [CRUD4Controller::class, 'CRUD4'])->name('CRUD4');
 
 
-Route::get('/adicionar',[FormularioController::class, 'Formulario'])->name('formulario');
-Route::post('/adicionar/create', [FormularioController::class, 'store']);
+Route::get('/adicionar',[FormularioController::class, 'Formulario'])->name('formulario.create');
+Route::post('/adicionar', [FormularioController::class, 'store']);
 

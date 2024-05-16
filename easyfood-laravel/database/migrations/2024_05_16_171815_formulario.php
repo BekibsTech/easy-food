@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create ('formulario', function(Blueprint $table){
+        Schema::create ('formularios', function(Blueprint $table){
             $table->id();
             $table->string('nomeItem');
-            $table->integer('preco-item');
+            $table->integer('precoItem');
             $table->timestamps();
         });
     }
