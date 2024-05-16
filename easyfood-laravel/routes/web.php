@@ -21,21 +21,6 @@ Route::get('/CRUD4', [CRUD4Controller::class, 'CRUD4'])->name('CRUD4');
 Route::get('/adicionar',[FormularioController::class, 'Formulario'])->name('formulario');
 
 
-Route::get('/pedidos/create', [PedidosController::class, 'create'])->pedido('pedidos.create');
-Route::post('/pedidos/create', [PedidosController::class, 'store']);
 
-Route::get('/pedidos/create', [PedidosController::class, 'create'])->item('pedidos.create');
-Route::post('/pedidos/create', [PedidosController::class, 'store']);
+Route::post('/adicionar/create', [FormularioController::class, 'store']);
 
-Route::get('/pedidos/create', [PedidosController::class, 'create'])->cliente('pedidos.create');
-Route::post('/pedidos/create', [PedidosController::class, 'store']);
-
-Route::get('/pedidos/create', [PedidosController::class, 'create'])->valor('pedidos.create');
-Route::post('/pedidos/create', [PedidosController::class, 'store']);
-
-
-
-Route::get('/pedidos/update/{id}',[PedidosController::class, 'update'])->name('pedidos.update');
-Route::post('/pedidos/update', [PedidosController::class, 'edit']);
-
-Route::get('/pedidos/delete/{id}', [PedidosController::class, 'delete'])->name('pedidos.delete');
