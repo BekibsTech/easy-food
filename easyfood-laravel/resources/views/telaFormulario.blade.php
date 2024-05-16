@@ -23,13 +23,13 @@
             <h2>Novo Item</h2>
             <form id="form-item">
                 <div class="form-group">
-                    <label for="nome-item">Nome do Item:</label>
-                    <input type="text" id="nome-item" name="nome-item" required>
+                    <label for="nomeItem">Nome do Item:</label>
+                    <input type="text" id="nomeItem" name="nomeItem" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="preco-item">Preço:</label>
-                    <input type="number" id="preco-item" name="preco-item" step="0.01" required>
+                    <label for="precoItem ">Preço:</label>
+                    <input type="number" id="precoItem " name="precoItem " step="0.01" required>
                 </div>
                 <button type="submit">Adicionar Item</button>
             </form>

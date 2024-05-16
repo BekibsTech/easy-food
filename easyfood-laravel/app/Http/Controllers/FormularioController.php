@@ -10,20 +10,14 @@ class FormularioController extends Controller
         return view('/telaFormulario');
     }
 
-    public function quadro(){
-        return view('/telaFormulario/quadro');
-    }
-
     public function store(Request $request){
         $request->validate([
-            'pedido' => ['required', 'max:255'],
+            'nomeItem' => ['required', 'max:255'],
         ]);
 
-        $pedido = new pedidos();
-        $pedido->pedido = $request->pedido;
-        $pedido->item = $request->item;
-        $pedido->cliente = $request->cliente;
-        $pedido->valor = $request->valor;
+        $formulario = new Formulario();
+        $formulario->nomeItem = $request->nomeItem;
+        $formulario->precoItem = $request->precoItem;
 
         $pedido->save();
         return redirect()->route('formulario.create')->with('success', 'Pedido salvo com sucesso');
